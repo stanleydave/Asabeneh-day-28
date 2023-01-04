@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  main {
+    margin: 5rem auto;
+    width: 75%;
+    text-align: center;
+  }
+  input {
+    /* margin-left: 3px; */
+    padding: 0.8rem;
+    border-color: pink;
+    outline-color: rgb(235, 92, 116);
+  }
+  input:last-of-type {
+    margin-left: 3px;
+  }
+  button {
+    padding: 0.8rem;
+    border: 0;
+    width: 10rem;
+    background-color: pink;
+    color: white;
+    font-size: 1rem;
+  }
+  .add {
+    background-color: pink;
+    margin: 1rem auto 0;
+    height: 3rem;
+    padding: 0.5rem 1rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 91.5%;
+  }
+  h5 {
+    margin-top: 0.5rem;
+    margin-left: -2rem;
+  }
+  .date {
+    font-size: 0.7rem;
+    color: grey;
+    margin-top: -1.2rem;
+  }
+  .delBtn,
+  .plus,
+  .minus {
+    background-color: white;
+    width: 1rem;
+    height: 1rem;
+    padding: 1rem;
+    margin-right: 5px;
+    border-radius: 50%;
+  }
+  .icons {
+    display: flex;
+    margin-right: 3rem;
+  }
+  .top {
+    margin-top: 1rem;
+  }
+  .plus:hover,
+  .minus:hover,
+  .delBtn:hover {
+    background-color: rgbrgb(237,223,222);
+  }
